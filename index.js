@@ -3,9 +3,9 @@ const VkBot = require('node-vk-bot-api');
 const bot = new VkBot(process.env.TOKEN);
  
 bot.command(/^какой сейчас урок(\.|\?)?$/i, (ctx) => {
- 
- let date = new Date();
-    ctx.reply("T1: " + date.getTimezoneOffset() + "::" + date.getTime());
+ let d = new Date();
+ let date = new Date(d.getTime()-180);
+ ctx.reply("T1: " + date.getTimezoneOffset() + "::" + date.getTime());
 
 });
  
