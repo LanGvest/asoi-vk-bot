@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node index.js"
   },
+  "author": "LanGvest",
   "license": "ISC",
   "dependencies": {
     "firebase": "^7.16.1",
