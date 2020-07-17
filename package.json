@@ -1,0 +1,15 @@
+{
+  "name": "asoi-vk-bot",
+  "version": "1.0.0",
+  "description": "Бот АСОИ для ВКонтакте",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "LanGvest",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^7.16.1",
+    "node-vk-bot-api": "^3.3.5"
+  }
+}
