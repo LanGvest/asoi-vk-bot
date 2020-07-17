@@ -4,7 +4,7 @@ const bot = new VkBot(process.env.TOKEN);
  
 bot.command(/^какой сейчас урок(\.|\?)?$/i, (ctx) => {
  let d = new Date();
- let date = new Date(d.getTime()-180);
+ let date = new Date(d.getTime()-180000);
  ctx.reply("T11: " + date.getTimezoneOffset() + "::" + date.getTime());
 
 });
