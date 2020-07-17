@@ -6,7 +6,7 @@ bot.command(/^какой сейчас урок(\.|\?)?$/i, (ctx) => {
     
     let date = new Date();
     console.log(date.toString())
-    ctx.reply("time");
+    ctx.reply(date.toString());
 });
  
 bot.startPolling();
